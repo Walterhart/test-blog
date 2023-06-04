@@ -1,8 +1,19 @@
 <html>
     <head>
-        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="./style/style.css">
     </head>
     <body>
+        <nav>
+            <h3>Test Blog</h3>
+        </nav>
+        <form  id="form-post">
+            <label for="title"> Title:  </label>
+            <input name="title" placeholder="Enter title" type="text" id="title"  />
+            <label for="description">Description : </label>
+            <textarea name="description"  placeholder="Enter Description" type="text" id="description" ></textarea>
+            <button class="button"> Submit</button>
+        </form>
+        <div id="blog-list"></div>
         <script src="index.js"></script>
     </body>
 </html>
